@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: my-step
         run: |
-          chmod +x ./workflow/script.sh
+          chmod +x ./workflows/script.sh
           ./script.sh
           shell: bash
