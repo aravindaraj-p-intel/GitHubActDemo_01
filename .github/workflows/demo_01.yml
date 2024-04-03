@@ -6,6 +6,5 @@ jobs:
     steps:
       - name: my-step
         run: 
-          echo "($PWD)"
           /home/runner/work/GitHubActDemo_01/GitHubActDemo_01/script.sh
           
