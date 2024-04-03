@@ -6,4 +6,5 @@ jobs:
     steps:
       - name: my-step
         run: 
-          script.sh
+          chmod +x ./script.sh
+          ./script.sh
