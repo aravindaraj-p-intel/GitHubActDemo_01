@@ -7,4 +7,4 @@ jobs:
       - name: my-step
         run: |
           chmod +x $(Build.SourcesDirectory)/script.sh
-          ./script.sh
+          $(Build.SourcesDirectory)/script.sh
