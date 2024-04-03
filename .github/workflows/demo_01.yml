@@ -6,5 +6,5 @@ jobs:
     steps:
       - name: my-step
         run: |
-          chmod +x /home/runner/work/GitHubActDemo_01/GitHubActDemo_01/script.sh
+          chmod +x /home/runner/work/GitHubActDemo_01/GitHubActDemo_01/blob/main/script.sh
           /home/runner/work/GitHubActDemo_01/GitHubActDemo_01/script.sh
